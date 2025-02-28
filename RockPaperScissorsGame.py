@@ -11,7 +11,7 @@ while True:
     Computer_Choice = random.choice(Game)  
     print(f"Computer chose: {Computer_Choice}")
 
-    # Determine the winner
+   
     if User_Choice == Computer_Choice:
         print("It is a tie breaker")
     elif (User_Choice == "Rock" and Computer_Choice == "Scissors") or \
